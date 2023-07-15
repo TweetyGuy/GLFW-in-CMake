@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/CMakeLists.txt
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/3.26.4/CMakeCCompiler.cmake
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/3.26.4/CMakeRCCompiler.cmake
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/3.26.4/CMakeSystem.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/FindOpenGL.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Platform/Windows.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake

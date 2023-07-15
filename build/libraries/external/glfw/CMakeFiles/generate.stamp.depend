@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glfw/CMake/cmake_uninstall.cmake.in
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glfw/CMake/glfw3Config.cmake.in
+C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glfw/CMakeLists.txt
+D:/CBT/cmake/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakeDependentOption.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/FindThreads.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+D:/CBT/cmake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake

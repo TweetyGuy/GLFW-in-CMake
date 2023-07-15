@@ -1,0 +1,10 @@
+^C:\USERS\KSART\ONEDRIVE\DESKTOP\FLAPPYBIRD\BUILD\CMAKEFILES\0CBB9F9DEB3CFF6E5FAFBCCF6F32652B\GENERATE.STAMP.RULE
+setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

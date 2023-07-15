@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\d0c0bec9dd1e0f6796219b74980eab0e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{642A0D75-9A68-38F5-8CAD-857BAEDAE6C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

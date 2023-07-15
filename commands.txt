@@ -1,0 +1,10 @@
+These are the commands you need to use to build and run CMake.
+
+To build the project:
+
+cmake -B build
+cmake --build build
+
+To execute the code:
+
+Go to .\build\Debug\Project.exe (would it be .elf for mac or smth??)

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\src\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B2476CD3-6DAE-3D60-A9C8-56E14C1BE281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B9A266F-EF01-3A83-A2DF-9CAC1D143611}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

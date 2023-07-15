@@ -1,0 +1,10 @@
+^C:\USERS\KSART\ONEDRIVE\DESKTOP\FLAPPYBIRD\LIBRARIES\EXTERNAL\GLM\TEST\GTX\CMAKELISTS.TXT
+setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/libraries/external/glm/test/gtx/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

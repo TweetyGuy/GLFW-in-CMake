@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AE3E3CF-A7B8-37B6-ABD7-D94F34C496D1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/libraries/external/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\GNUInstallDirs.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glm.pc.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmBuildConfig.cmake.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmConfig.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/libraries/external/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\GNUInstallDirs.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glm.pc.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmBuildConfig.cmake.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmConfig.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/libraries/external/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\GNUInstallDirs.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glm.pc.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmBuildConfig.cmake.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmConfig.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/libraries/external/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/libraries/external/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\CMakePackageConfigHelpers.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\GNUInstallDirs.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glm.pc.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmBuildConfig.cmake.in;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm\cmake\glmConfig.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\ZERO_CHECK.vcxproj">
+      <Project>{214A0552-EF53-3302-A49D-52263312E9DE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\glm\glm_dummy.vcxproj">
+      <Project>{8A30D31F-2167-34B4-9138-96DBE807C701}</Project>
+      <Name>glm_dummy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\bug\test-bug_ms_vec_static.vcxproj">
+      <Project>{AB0F1D28-791E-38F0-B3B7-AA5FE832FBD9}</Project>
+      <Name>test-bug_ms_vec_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_force_pure.vcxproj">
+      <Project>{62FB8358-DC56-3301-9778-01070DDF571C}</Project>
+      <Name>test-core_force_pure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_force_unrestricted_gentype.vcxproj">
+      <Project>{B169CACA-D66D-3DC9-B19C-B425F5893FA5}</Project>
+      <Name>test-core_force_unrestricted_gentype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_common.vcxproj">
+      <Project>{635407F8-1CC5-3763-B50A-C842C626A643}</Project>
+      <Name>test-core_func_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_exponential.vcxproj">
+      <Project>{7293F3B9-42D5-38E6-9F52-1998F161CA43}</Project>
+      <Name>test-core_func_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_geometric.vcxproj">
+      <Project>{02FEBE1A-14A5-371A-AA1D-E5488E8C6B4A}</Project>
+      <Name>test-core_func_geometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_integer.vcxproj">
+      <Project>{9AD31624-C304-3FEA-AFFA-0913ECE9860E}</Project>
+      <Name>test-core_func_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_integer_bit_count.vcxproj">
+      <Project>{148A7010-B07D-3EF4-85D9-86D1E75AD8ED}</Project>
+      <Name>test-core_func_integer_bit_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_integer_find_lsb.vcxproj">
+      <Project>{9551B2D5-8535-3A40-A0EF-5B1E9DA2C536}</Project>
+      <Name>test-core_func_integer_find_lsb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_integer_find_msb.vcxproj">
+      <Project>{98426DAA-0868-3704-8313-ABB582B3AFF9}</Project>
+      <Name>test-core_func_integer_find_msb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_matrix.vcxproj">
+      <Project>{5DBBE03A-A28B-35D9-ABF9-78DEAE2E673E}</Project>
+      <Name>test-core_func_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_noise.vcxproj">
+      <Project>{3D9880BA-9B00-347A-B9F5-266CAE11E88C}</Project>
+      <Name>test-core_func_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_packing.vcxproj">
+      <Project>{24D90F2A-523E-3C3D-9302-00F1E0A6DA9B}</Project>
+      <Name>test-core_func_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_swizzle.vcxproj">
+      <Project>{9092F84A-FC66-3605-944E-3323595679F7}</Project>
+      <Name>test-core_func_swizzle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_trigonometric.vcxproj">
+      <Project>{63B501CD-D4F5-37E7-998F-57B496384144}</Project>
+      <Name>test-core_func_trigonometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_func_vector_relational.vcxproj">
+      <Project>{35C35DA5-096F-3A29-9D30-AAB1CA46F5E4}</Project>
+      <Name>test-core_func_vector_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_setup_force_cxx98.vcxproj">
+      <Project>{53FBBFED-636E-3D0F-A399-3BCCD2709A6A}</Project>
+      <Name>test-core_setup_force_cxx98</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_setup_message.vcxproj">
+      <Project>{6CABA6F0-0C1E-3B88-B524-F085A6D18AE6}</Project>
+      <Name>test-core_setup_message</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_setup_precision.vcxproj">
+      <Project>{892EAD29-F71B-37F7-903D-E37EC1544EDA}</Project>
+      <Name>test-core_setup_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_aligned.vcxproj">
+      <Project>{4A52321C-C20A-35C7-9C5D-06A5D6825B1A}</Project>
+      <Name>test-core_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_cast.vcxproj">
+      <Project>{89BC73D0-28B4-30E4-87C2-4C80BC0B713A}</Project>
+      <Name>test-core_type_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_ctor.vcxproj">
+      <Project>{3F57D210-FE55-3D32-9D78-CF064CBF0797}</Project>
+      <Name>test-core_type_ctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_float.vcxproj">
+      <Project>{F8E99F79-1C19-3EFB-B3DD-75A0C5F43459}</Project>
+      <Name>test-core_type_float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_int.vcxproj">
+      <Project>{1D01FDE5-E145-3E87-9AF9-27370B3D0369}</Project>
+      <Name>test-core_type_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_length.vcxproj">
+      <Project>{9548BC78-8895-33D1-8008-8FF1AD5AD43B}</Project>
+      <Name>test-core_type_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat2x2.vcxproj">
+      <Project>{2ECAE712-A1CC-3D56-A2D1-646BA85DDD97}</Project>
+      <Name>test-core_type_mat2x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat2x3.vcxproj">
+      <Project>{B1B5DB23-3C3E-318F-ADDF-31E1DE908755}</Project>
+      <Name>test-core_type_mat2x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat2x4.vcxproj">
+      <Project>{C05A88F5-0E1D-3B0E-A4AF-051D7F31728D}</Project>
+      <Name>test-core_type_mat2x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat3x2.vcxproj">
+      <Project>{1D52E53B-7D91-30EF-8FF0-0A6ADCE48620}</Project>
+      <Name>test-core_type_mat3x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat3x3.vcxproj">
+      <Project>{47688CC4-D79F-3700-90F2-3801C1EDACD7}</Project>
+      <Name>test-core_type_mat3x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat3x4.vcxproj">
+      <Project>{1B7E9830-7186-3644-9DE7-376EBD0A0A8F}</Project>
+      <Name>test-core_type_mat3x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat4x2.vcxproj">
+      <Project>{8D75547E-070F-3632-B4CA-1EE07A360554}</Project>
+      <Name>test-core_type_mat4x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat4x3.vcxproj">
+      <Project>{79B1ED2C-7294-37E3-BA80-BE5ED8AE12F1}</Project>
+      <Name>test-core_type_mat4x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_mat4x4.vcxproj">
+      <Project>{1808403E-E1AA-348D-9D2B-76FF86CD4D20}</Project>
+      <Name>test-core_type_mat4x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_vec1.vcxproj">
+      <Project>{3A321FEB-D5C1-3D48-B0B5-B9166EE0CD48}</Project>
+      <Name>test-core_type_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_vec2.vcxproj">
+      <Project>{B6D8C81A-6C5D-3163-9A31-76D17A399613}</Project>
+      <Name>test-core_type_vec2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_vec3.vcxproj">
+      <Project>{0BDB13FC-DAE9-3494-92C9-21C90729F70A}</Project>
+      <Name>test-core_type_vec3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\core\test-core_type_vec4.vcxproj">
+      <Project>{F52241CD-BC8E-3A14-A557-F5AC41863568}</Project>
+      <Name>test-core_type_vec4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_bitfield.vcxproj">
+      <Project>{114EE791-5C1A-34B0-B56D-EDD165DB7DE7}</Project>
+      <Name>test-gtc_bitfield</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_color_space.vcxproj">
+      <Project>{D5B5DCE4-662A-3162-B68D-0172BD1F34F8}</Project>
+      <Name>test-gtc_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_constants.vcxproj">
+      <Project>{0ACBD5DB-08CA-366A-9FEB-355434CC707C}</Project>
+      <Name>test-gtc_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_epsilon.vcxproj">
+      <Project>{79CBBBD8-2C4C-3C49-91B1-A8C956B3BF75}</Project>
+      <Name>test-gtc_epsilon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_functions.vcxproj">
+      <Project>{7E39C66D-7336-39EE-8811-A224177190F3}</Project>
+      <Name>test-gtc_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_integer.vcxproj">
+      <Project>{E508804E-A3E3-35DE-8FA7-9CF0060AD05F}</Project>
+      <Name>test-gtc_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_matrix_access.vcxproj">
+      <Project>{D2308B20-9719-32C5-8123-692B95A0A68B}</Project>
+      <Name>test-gtc_matrix_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_matrix_integer.vcxproj">
+      <Project>{933312E8-A7A4-3479-A6EE-F96C448831C7}</Project>
+      <Name>test-gtc_matrix_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_matrix_inverse.vcxproj">
+      <Project>{139048B9-E67E-3B6A-9ACB-25D40A01955D}</Project>
+      <Name>test-gtc_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_matrix_transform.vcxproj">
+      <Project>{4EF3E102-6E95-3222-B8A7-4F5BF3AD17B6}</Project>
+      <Name>test-gtc_matrix_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_noise.vcxproj">
+      <Project>{8C217019-6E40-3945-BFC5-084F603289EA}</Project>
+      <Name>test-gtc_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_packing.vcxproj">
+      <Project>{0352768D-7147-3DE0-B24A-FAD3685A1EAC}</Project>
+      <Name>test-gtc_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_quaternion.vcxproj">
+      <Project>{85E8E848-0192-3DA6-833A-8DC22FC0427D}</Project>
+      <Name>test-gtc_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_random.vcxproj">
+      <Project>{78344336-D421-395D-AAD5-06AA3D943E5D}</Project>
+      <Name>test-gtc_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_reciprocal.vcxproj">
+      <Project>{2642B8D5-9B83-3396-A511-2822BD083E48}</Project>
+      <Name>test-gtc_reciprocal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_round.vcxproj">
+      <Project>{B77A82A0-CBA1-3C28-BC9F-CBD3B9175E1C}</Project>
+      <Name>test-gtc_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_type_aligned.vcxproj">
+      <Project>{38B8A4EA-76F0-365F-B8CA-556DDE2AC007}</Project>
+      <Name>test-gtc_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_type_precision.vcxproj">
+      <Project>{74C758BB-FB76-355B-A0F1-042002585ED2}</Project>
+      <Name>test-gtc_type_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_type_ptr.vcxproj">
+      <Project>{699C657A-E2C6-3490-A72C-6A41A9840D31}</Project>
+      <Name>test-gtc_type_ptr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_ulp.vcxproj">
+      <Project>{4CE10FF5-1E8D-3783-8A9C-6D2643F7F087}</Project>
+      <Name>test-gtc_ulp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtc\test-gtc_vec1.vcxproj">
+      <Project>{A95D6464-42ED-3F1D-8A63-33F9E419C3C8}</Project>
+      <Name>test-gtc_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx.vcxproj">
+      <Project>{C067C382-DC45-39C1-8AB3-1DCC9A11BE25}</Project>
+      <Name>test-gtx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_associated_min_max.vcxproj">
+      <Project>{1B8D7A07-69CD-3417-9A95-8F6E0A1D4AA1}</Project>
+      <Name>test-gtx_associated_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_closest_point.vcxproj">
+      <Project>{9625CBD4-A3F0-325F-B131-075B71DC2282}</Project>
+      <Name>test-gtx_closest_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_color_space.vcxproj">
+      <Project>{ED5EA144-30DB-34FA-AFF0-E6A04B8F1F3D}</Project>
+      <Name>test-gtx_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_color_space_YCoCg.vcxproj">
+      <Project>{EF5B2A41-91D3-3E09-A97F-6B3AB177DAE0}</Project>
+      <Name>test-gtx_color_space_YCoCg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_common.vcxproj">
+      <Project>{91CF0F1C-C85E-38B3-9257-C11DFD8D93E4}</Project>
+      <Name>test-gtx_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_compatibility.vcxproj">
+      <Project>{8BA590C6-965A-36C6-9770-A563D291AABE}</Project>
+      <Name>test-gtx_compatibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_component_wise.vcxproj">
+      <Project>{B14F338C-CFA9-3F42-A09F-4D1AA34851CB}</Project>
+      <Name>test-gtx_component_wise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_dual_quaternion.vcxproj">
+      <Project>{4F32DF27-E6EE-3524-995A-029FE80B5F38}</Project>
+      <Name>test-gtx_dual_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_euler_angle.vcxproj">
+      <Project>{A4C6FCA8-10BB-3B16-B800-8C606F5E9E74}</Project>
+      <Name>test-gtx_euler_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_extend.vcxproj">
+      <Project>{3A2009C2-5217-3227-884A-C1D3E5DA5A8A}</Project>
+      <Name>test-gtx_extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_extended_min_max.vcxproj">
+      <Project>{5C70DA18-BF76-3749-92FD-CE0CB51BD10C}</Project>
+      <Name>test-gtx_extended_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_fast_exponential.vcxproj">
+      <Project>{C3522FE5-2720-38D8-A2C6-6126B63DFBFB}</Project>
+      <Name>test-gtx_fast_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_fast_square_root.vcxproj">
+      <Project>{30A0F336-EA93-3229-946C-62C580F7386E}</Project>
+      <Name>test-gtx_fast_square_root</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_fast_trigonometry.vcxproj">
+      <Project>{F57DFB2B-15B8-331E-BDAB-0899F3F134BB}</Project>
+      <Name>test-gtx_fast_trigonometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_gradient_paint.vcxproj">
+      <Project>{9943B21B-571D-3144-A9E6-CE37492B246E}</Project>
+      <Name>test-gtx_gradient_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_handed_coordinate_space.vcxproj">
+      <Project>{0A4FC8E2-DA97-3E62-A360-F54EE53C3632}</Project>
+      <Name>test-gtx_handed_coordinate_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_integer.vcxproj">
+      <Project>{A0DD1AFF-2AFE-371B-82F7-BBAD3BEFFF90}</Project>
+      <Name>test-gtx_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_intersect.vcxproj">
+      <Project>{CABDF10B-034D-3AFC-9D80-2E53DA27602D}</Project>
+      <Name>test-gtx_intersect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_io.vcxproj">
+      <Project>{4A2B039A-F8A1-306D-922F-39BEED4E4D81}</Project>
+      <Name>test-gtx_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_log_base.vcxproj">
+      <Project>{29C556EA-E9F5-32A9-B656-6F55D628261C}</Project>
+      <Name>test-gtx_log_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_cross_product.vcxproj">
+      <Project>{97B0F3A2-A6B2-3190-A259-6041831E4164}</Project>
+      <Name>test-gtx_matrix_cross_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_decompose.vcxproj">
+      <Project>{2F443B2C-8F00-3301-ABFE-B59FCDB53E51}</Project>
+      <Name>test-gtx_matrix_decompose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_interpolation.vcxproj">
+      <Project>{6448B4EE-46C5-35A7-8B6F-08335AAB567E}</Project>
+      <Name>test-gtx_matrix_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_major_storage.vcxproj">
+      <Project>{EEBB0571-11AC-340F-9B72-E6E6FD317F58}</Project>
+      <Name>test-gtx_matrix_major_storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_operation.vcxproj">
+      <Project>{8F28F0E4-9D8E-349E-8548-4FAD7810F357}</Project>
+      <Name>test-gtx_matrix_operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_query.vcxproj">
+      <Project>{E3610DE1-1D0D-3256-BB4C-8FB14AAFB1D4}</Project>
+      <Name>test-gtx_matrix_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_matrix_transform_2d.vcxproj">
+      <Project>{7374B0D5-5909-39F6-9D2E-987648FC39D0}</Project>
+      <Name>test-gtx_matrix_transform_2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_norm.vcxproj">
+      <Project>{F4421153-1941-3EDD-AC62-1B8569B38BAF}</Project>
+      <Name>test-gtx_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_normal.vcxproj">
+      <Project>{330ABC76-B3C9-397A-9CE7-0FC21F8B9250}</Project>
+      <Name>test-gtx_normal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_normalize_dot.vcxproj">
+      <Project>{68807A14-F56C-385E-A0A2-0210E139F750}</Project>
+      <Name>test-gtx_normalize_dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_number_precision.vcxproj">
+      <Project>{652C848B-63C8-3E66-ABA0-41DF11A9B8A5}</Project>
+      <Name>test-gtx_number_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_optimum_pow.vcxproj">
+      <Project>{F3927908-8ECC-3010-894B-694B6CAE87BB}</Project>
+      <Name>test-gtx_optimum_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_orthonormalize.vcxproj">
+      <Project>{35225D9A-5AE3-3E8F-96A6-6FC353EE5FB8}</Project>
+      <Name>test-gtx_orthonormalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_perpendicular.vcxproj">
+      <Project>{DED7FED1-66B5-37D4-B321-806BDC7C9B58}</Project>
+      <Name>test-gtx_perpendicular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_polar_coordinates.vcxproj">
+      <Project>{056EE8F9-90EA-368E-846A-F42FD75A54ED}</Project>
+      <Name>test-gtx_polar_coordinates</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_projection.vcxproj">
+      <Project>{C7AD93A2-1052-30BF-8289-00E52A5CC3A7}</Project>
+      <Name>test-gtx_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_quaternion.vcxproj">
+      <Project>{37E4DA76-F475-30A2-A667-B51559CD8339}</Project>
+      <Name>test-gtx_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_range.vcxproj">
+      <Project>{99217BE2-524A-37E6-AC7A-A47242D4D729}</Project>
+      <Name>test-gtx_range</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_rotate_normalized_axis.vcxproj">
+      <Project>{86B445E5-7AC1-3BE3-BC5C-D33F3170AC34}</Project>
+      <Name>test-gtx_rotate_normalized_axis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_rotate_vector.vcxproj">
+      <Project>{22C858CF-08B5-314A-946D-0178B1D49CE4}</Project>
+      <Name>test-gtx_rotate_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_scalar_multiplication.vcxproj">
+      <Project>{A3BD625A-0FE3-35E9-B104-B128E046FDE7}</Project>
+      <Name>test-gtx_scalar_multiplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_scalar_relational.vcxproj">
+      <Project>{D5CF0FAE-81E5-3454-B061-9E326110BF79}</Project>
+      <Name>test-gtx_scalar_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_spline.vcxproj">
+      <Project>{C913A2B4-2B75-3D92-8597-58E4A3C4000C}</Project>
+      <Name>test-gtx_spline</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_string_cast.vcxproj">
+      <Project>{49330BB9-ADAC-397D-B50D-99D7D5AD1958}</Project>
+      <Name>test-gtx_string_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_type_aligned.vcxproj">
+      <Project>{B8E9A627-AE45-3A74-A3AD-20923E317769}</Project>
+      <Name>test-gtx_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_type_trait.vcxproj">
+      <Project>{CB460F20-8DFD-35DC-8F93-E368ED91C560}</Project>
+      <Name>test-gtx_type_trait</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_vector_angle.vcxproj">
+      <Project>{5DAB246C-000D-3CA9-92C0-3D930AA62D00}</Project>
+      <Name>test-gtx_vector_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_vector_query.vcxproj">
+      <Project>{97D018BB-9686-3C90-A7F1-41F2355A233F}</Project>
+      <Name>test-gtx_vector_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glm\test\gtx\test-gtx_wrap.vcxproj">
+      <Project>{B0690AE5-DC67-3C64-9A10-5D918A58B74F}</Project>
+      <Name>test-gtx_wrap</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{68E20821-F6ED-3566-835F-9E24F739A159}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>project</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">project.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">project.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">project.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">project.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\external\glfw\src\Debug\glfw3.lib;libraries\external\glad\Debug\glad.lib;libraries\external\stb_image\Debug\stb_image.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/Debug/project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/Debug/project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\external\glfw\src\Release\glfw3.lib;libraries\external\glad\Release\glad.lib;libraries\external\stb_image\Release\stb_image.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/Release/project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/Release/project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\external\glfw\src\MinSizeRel\glfw3.lib;libraries\external\glad\MinSizeRel\glad.lib;libraries\external\stb_image\MinSizeRel\stb_image.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/MinSizeRel/project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/MinSizeRel/project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glfw\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glad\include;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\glm;C:\Users\ksart\OneDrive\Desktop\FlappyBird\libraries\external\stb_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\external\glfw\src\RelWithDebInfo\glfw3.lib;libraries\external\glad\RelWithDebInfo\glad.lib;libraries\external\stb_image\RelWithDebInfo\stb_image.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/RelWithDebInfo/project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/RelWithDebInfo/project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ksart/OneDrive/Desktop/FlappyBird/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CBT\cmake\bin\cmake.exe -SC:/Users/ksart/OneDrive/Desktop/FlappyBird -BC:/Users/ksart/OneDrive/Desktop/FlappyBird/build --check-stamp-file C:/Users/ksart/OneDrive/Desktop/FlappyBird/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CBT\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\ZERO_CHECK.vcxproj">
+      <Project>{214A0552-EF53-3302-A49D-52263312E9DE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glad\glad.vcxproj">
+      <Project>{94DFF820-F333-37E1-8313-EF59ED1E15F7}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\glfw\src\glfw.vcxproj">
+      <Project>{03A12424-3142-30DE-9E13-82008392A916}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ksart\OneDrive\Desktop\FlappyBird\build\libraries\external\stb_image\stb_image.vcxproj">
+      <Project>{44FE10C9-291B-35F9-940B-9E345394F8B4}</Project>
+      <Name>stb_image</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
